@@ -5,7 +5,7 @@ class Cards extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      text: "Add your card here.",
+      text: "Add your card here."
     };
   }
 
@@ -73,12 +73,19 @@ class Cards extends React.Component {
                   Computer science student at the University of Florida.
                 </Card.Text>
                 <Card.Text>Go Gators!</Card.Text>
+              </Card.Body>
             </Card>
             <Card style={{ width: "18rem" }}>
               <Card.Body>
                 <Card.Title>Sruthi Jayanti</Card.Title>
-                <Card.Text>Computer Science Student from University of Illinois at Urbana-Champaign</Card.Text>
-                <Button href="https://www.linkedin.com/in/sruthij02/" target="_blank">
+                <Card.Text>
+                  Computer Science Student from University of Illinois at
+                  Urbana-Champaign
+                </Card.Text>
+                <Button
+                  href="https://www.linkedin.com/in/sruthij02/"
+                  target="_blank"
+                >
                   Check out my LinkedIn!
                 </Button>
               </Card.Body>
