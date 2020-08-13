@@ -73,6 +73,14 @@ class Cards extends React.Component {
                   Computer science student at the University of Florida.
                 </Card.Text>
                 <Card.Text>Go Gators!</Card.Text>
+            </Card>
+            <Card style={{ width: "18rem" }}>
+              <Card.Body>
+                <Card.Title>Sruthi Jayanti</Card.Title>
+                <Card.Text>Computer Science Student from University of Illinois at Urbana-Champaign</Card.Text>
+                <Button href="https://www.linkedin.com/in/sruthij02/" target="_blank">
+                  Check out my LinkedIn!
+                </Button>
               </Card.Body>
             </Card>
           </div>
