@@ -66,6 +66,15 @@ class Cards extends React.Component {
                 <Card.Text>This is just a text card!</Card.Text>
               </Card.Body>
             </Card>
+            <Card style={{ width: "18rem" }}>
+              <Card.Body>
+                <Card.Title>Grace Wilcox</Card.Title>
+                <Card.Text>
+                  Computer science student at the University of Florida.
+                </Card.Text>
+                <Card.Text>Go Gators!</Card.Text>
+              </Card.Body>
+            </Card>
           </div>
         </div>
       </h5>
