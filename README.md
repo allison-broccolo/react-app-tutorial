@@ -10,6 +10,25 @@ Along the way here are some resources you may find helpful if you are new to the
 - [React Bootstrap](https://react-bootstrap.github.io/getting-started/why-react-bootstrap/)
 - [Create React App](https://github.com/facebook/create-react-app)
 
+## Setup 
+
+1. Install Node.js V.12.18.3 LTS for NPM package Manager (https://nodejs.org/en/)  
+
+2. Follow the instruction on the Installation Package 
+
+3. Check whether Node has been installed by typing “node -v” on your command line tool  
+
+4. You are now ready to go! Pay Attention and try to follow along 
+
+## Side Notes 
+
+We recommend VSCode when working with React for the number of extension it has to list a few: 
+- Prettier (for automatic formatting A MUST HAVE !!!) 
+- Simple React Snippets (For Auto Complete) 
+- You can also change theme through extension but that’s mainly up to you 
+
+For windows, try to use git bash as your command line tool instead of command prompt as command prompt uses a slightly different command line language. 
+
 ## Getting started
 
 - clone this repo, and create a new branch (once public it will be fork the repo and clone it)
