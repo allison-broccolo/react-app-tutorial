@@ -5,7 +5,7 @@ class Cards extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      text: "Add your card here."
+      text: "Add your card here.",
     };
   }
 
@@ -14,6 +14,16 @@ class Cards extends React.Component {
       <h5 className="m-4">
         <div className="container mt-2">
           <div className="row mw-100 justify-content-between">
+            <Card style={{ width: "18rem" }}>
+              <Card.Body>
+                <Card.Title>Jim Harbaugh</Card.Title>
+                <Card.Img
+                  variant="top"
+                  src="https://townsquare.media/site/694/files/2018/11/Harbaugh-screaming-e1543245803752.jpg"
+                />
+                <Card.Text>Michigan Football Coach</Card.Text>
+              </Card.Body>
+            </Card>
             <Card style={{ width: "18rem" }}>
               <Card.Img
                 variant="top"
@@ -51,12 +61,13 @@ class Cards extends React.Component {
             <Card style={{ width: "18rem" }}>
               <Card.Body>
                 <Card.Title>Aaron Osborne</Card.Title>
-                <Card.Text>Software Engineer and Michigan fan</Card.Text>
+                <Card.Text>Software Engineer and Michigan Alumni</Card.Text>
                 <Button href="https://github.com/aaronosb" target="_blank">
                   Check out my GitHub Profile
                 </Button>
               </Card.Body>
             </Card>
+
             <Card style={{ width: "18rem" }}>
               <Card.Body>
                 <Card.Title>Dzenana Svraka</Card.Title>
