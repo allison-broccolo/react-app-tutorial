@@ -103,7 +103,7 @@ class Cards extends React.Component {
             </Card>
             <Card style={{ width: "18rem" }}>
               <Card.Body>
-                <Card.Title>Hello! I am Allisom Broccolo :)</Card.Title>
+                <Card.Title>Hello! I am Allison Broccolo</Card.Title>
                 <Card.Text>Data Analytics @ OSU</Card.Text>
                 <Button
                   href="https://www.linkedin.com/in/allison-broccolo/"
